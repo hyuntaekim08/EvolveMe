@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+    >
+    <TextView
+        android:id="@+id/statistics_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingTop="10dp"
+        android:gravity="center"/>
+
+    <ProgressBar
+        android:id="@+id/statistics_progressbar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="3dp"
+        android:indeterminate="false"
+        android:max="100"
+        android:minHeight="50dp"
+        android:minWidth="200dp"
+        android:progress="1"
+        android:layout_below="@+id/statistics_textview"
+        android:layout_centerHorizontal="true"
+        android:progressDrawable="@drawable/progress_bar"/>
+    <TextView
+        android:id="@+id/statistics_textview_nexttoimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_progressbar"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
+    <ImageView
+        android:id="@+id/statistics_imageview"
+        android:layout_width="20dp"
+        android:layout_height="40dp"
+        android:scaleType="fitXY"
+        android:layout_toLeftOf="@+id/statistics_textview_nexttoimage"
+        android:layout_alignTop="@+id/statistics_textview_nexttoimage"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
+</RelativeLayout>

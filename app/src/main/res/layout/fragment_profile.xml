@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:orientation="vertical"
+                tools:context=".ProfileFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#40ffffff"
+        android:layout_above="@+id/line"
+        android:gravity="center_horizontal">
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/cameraImageView"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/defaultweightimage"
+        app:civ_border_color="#EEEEEE"
+        app:civ_border_width="4dp"
+        app:civ_shadow="true"/>
+    </LinearLayout>
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/listView"
+        android:background="#1A97A5"/>
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="#60196372"/>
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Evolveme</string>
+    <string name="title_activity_intro">IntroActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="intropage_1"><b>Würdest Du für Geld abnehmen? Ich wette."\n""\n"</b>
+Mit der Abnehmwette Evolve Me gelangen Du und Dein Team endlich zur Traumfigur und dafür kriegt Ihr auch noch bares Geld als Belohnung. Wenn das kein Anreiz ist."\n""\n"
+        In der Community von Evolve Me wetten Teilnehmer auf Euer Team. Wenn Ihr es schafft, in einem bestimmten Zeitraum eine bestimmte Menge an Gewicht zu verlieren, winkt Euch ein großer Gewinn. Und was gibt es Besseres als im Team abzunehmen? "\n""\n"
+    Startet jetzt und fühlt Euch endlich wieder federleicht.</string>
+    <string name="intropage_2">Fo shizzle eros. Ma nizzle at dolizzle dapibus turpis tempizzle tempor.Maurizzle owned nibh fizzle turpis.Vestibulum izzle tortor. Pellentes- que my shizz rhoncizzle gizzle.
+        "\n""\n"
+        Fo shizzle eros. Ma nizzle at dolizzle dapibus turpis tempizzle tempor.Maurizzle owned nibh fizzle turpis.Vestibulum izzle tortor. Pellentes- que my shizz rhoncizzle gizzle.
+</string>
+    <string name="intropage_3">Ma nizzle at dolizzle dapibus turpis tempizzle tempor.Maurizzle owned nibh fizzle turpis.Vestibulum izzle tortor. Pellentes- que my shizz rhoncizzle gizzle.</string>
+    <string name="homefragment">Lorem Ipsum dolor sit amet</string>
+<string name="addweightfragment">Wiege dich zuhause oder beim Betriebsarzt und trage das Gewicht ein. Es ist am besten, wenn du dich täglich wiegst.</string>
+    <string name="spielrengeln">"\n""\n"SPIELRENGELN"\n""\n"- Es gewinnen die Teilnehmer einer Gruppe, die über den festgelegten Zeitraum am meisten abgenommen haben."\n""\n"
+- Während der Wettkampf läuft, kann man das Standing der anderen Teilnehmer sehen. Die Teilnehmer wiegen sich täglich selbst oder durch den BA. Es muss mindestens einmal pro Woche gewogen werden."\n""\n"
+- Entscheidend ist das erste und abschließende Wiegen beim Betriebsarzt"\n""\n"
+- Es wird markiert, wenn das Wiegen durch eine "zertifizierte Stelle" vorgenommen wurde.</string>
+    <string name="impressum">"\n""\n"IMPRESSUM"\n""\n"Evolve Me ist ein Angebot der Future Venture GmbH, "\n"
+Angerholz 20"\n"
+3365 Allhartsberg,"\n"
+Österreich."\n""\n""\n"
+
+
+
+Entwicklung: "\n"
+TouchingCode GmbH Berlin.</string>
+</resources>

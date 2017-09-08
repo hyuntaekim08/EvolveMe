@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:stretchColumns="*"
+    android:background="#40196372"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TableRow>
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/cameraImageView"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/defaultweightimage"
+            app:civ_border_color="#EEEEEE"
+            app:civ_border_width="4dp"
+            app:civ_shadow="true"
+            android:paddingLeft="10dp"
+            android:adjustViewBounds="false"
+            android:layout_weight="0.2"/>
+        <TextView
+            android:id="@+id/weightView"
+            android:text="CurrentWeight"
+            android:layout_gravity="center_vertical"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:layout_column="1"
+            android:textColor="#ffffff"
+            android:layout_weight="0.6"/>
+
+        <TextView
+            android:id="@+id/dateView"
+            android:text="Date"
+            android:layout_gravity="center_vertical"
+            android:textColor="#F4BB33"
+            android:layout_weight="0.2"/>
+    </TableRow>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#1A97A5"/>
+
+    </TableLayout>
